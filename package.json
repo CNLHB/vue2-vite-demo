@@ -12,12 +12,17 @@
     "format": "prettier --write src/",
     "prepare": "husky install",
     "test": "vitest --run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "cz": "git-cz"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@rushstack/eslint-patch": "1.3.3",
     "@vitejs/plugin-vue2": "^2.3.3",
     "@vue/eslint-config-prettier": "^9.0.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "8.57.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-vue": "9.17.0",
@@ -37,5 +42,10 @@
       "prettier --write",
       "eslint"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
