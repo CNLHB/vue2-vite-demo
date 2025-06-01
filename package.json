@@ -13,7 +13,8 @@
     "prepare": "husky install",
     "test": "vitest --run",
     "test:watch": "vitest",
-    "cz": "cz-customizable"
+    "cz": "cz-customizable",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
@@ -24,6 +25,8 @@
     "commitizen": "^4.3.1",
     "commitlint-config-cz": "^0.13.3",
     "commitlint-config-git-commit-emoji": "^1.0.0",
+    "conventional-changelog": "^7.0.2",
+    "conventional-changelog-cli": "^5.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.4.0",
     "eslint": "8.57.1",
