@@ -1,6 +1,7 @@
 ## 0.0.0 (2025-06-01)
 
 * :sparkles: feat(1): 1 ([689396d](https://github.com/CNLHB/vue2-vite-demo/commit/689396d))
+* :sparkles: feat(project): 构建库模式 ([82f1622](https://github.com/CNLHB/vue2-vite-demo/commit/82f1622))
 * :sparkles: feat(project): 新增自动提交日志生成脚本 ([2b392f5](https://github.com/CNLHB/vue2-vite-demo/commit/2b392f5))
 * :sparkles: feat(project): 增加中文交互式提交 ([89186bb](https://github.com/CNLHB/vue2-vite-demo/commit/89186bb))
 * 增加自动化测试 ([4c26f7c](https://github.com/CNLHB/vue2-vite-demo/commit/4c26f7c))
