@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue2';
 import eslintPlugin from 'vite-plugin-eslint';
 
 export default defineConfig({
-  base: '/vue-vite-demo', //跟仓库名一致
+  base: '/vue2-vite-demo', //跟仓库名一致
   plugins: [
     vue(),
     eslintPlugin({
