@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:demo": "cross-env CUSTOM_NODE_ENV=demo vite build --outDir demo",
     "preview": "vite preview",
     "lint": "eslint src/ --ext .js,.ts,.vue",
     "lint:fix": "eslint . --ext .js,.ts,.vue --fix",
@@ -27,6 +28,7 @@
     "commitlint-config-git-commit-emoji": "^1.0.0",
     "conventional-changelog": "^7.0.2",
     "conventional-changelog-cli": "^5.0.0",
+    "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.4.0",
     "eslint": "8.57.1",

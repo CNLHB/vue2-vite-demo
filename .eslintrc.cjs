@@ -6,6 +6,11 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 // 继承的位置后面的会覆盖前面的
 module.exports = {
   root: true,
+  env: {
+    browser: true,
+    es2021: true,
+    node: true
+  },
   extends: [
     'eslint:recommended',
     'plugin:vue/vue3-recommended', // 更全面的 Vue 规则（适用于 Vue 3）
