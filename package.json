@@ -34,8 +34,8 @@
   },
   "lint-staged": {
     "src/**/*.{js,vue}": [
-      "eslint",
-      "prettier --write"
+      "prettier --write",
+      "eslint"
     ]
   }
 }
