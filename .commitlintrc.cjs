@@ -10,8 +10,8 @@
 //   }
 // }
 module.exports = {
-  extends: ['git-commit-emoji', 'cz'],
-  // extends: ['@commitlint/config-conventional'], //默认
+  extends: ['cz'],
+  // extends: ['@commitlint/config-conventional'], //默认'git-commit-emoji',
   // extends: ['git-commit-emoji', 'cz'],
   rules: {
     // 'type-enum': [2, 'always', ['feat', 'fix', 'docs', 'chore']], // 限制提交类型
