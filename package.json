@@ -35,7 +35,8 @@
   "lint-staged": {
     "src/**/*.{js,vue}": [
       "prettier --write",
-      "eslint"
+      "eslint",
+      "pnpm run test"
     ]
   }
 }
